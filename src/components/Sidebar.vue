@@ -11,7 +11,7 @@
     <h3>Menu</h3>
 
     <div class="menu">
-      <RouterLink class="button" to="/">
+      <RouterLink class="button" to="/home">
         <span class="material-icons">home</span>
         <span class="text">Home</span>
       </RouterLink>
@@ -23,9 +23,9 @@
         <span class="material-icons">group</span>
         <span class="text">Team</span>
       </RouterLink>
-      <RouterLink class="button" to="/contact">
+      <RouterLink class="button" to="/email">
         <span class="material-icons">email</span>
-        <span class="text">Contact</span>
+        <span class="text">Email</span>
       </RouterLink>
     </div>
     <div class="flex"></div>
@@ -36,6 +36,7 @@
       </div>
     </div>
   </aside>
+  <RouterView />
 </template>
 
 <script setup>
